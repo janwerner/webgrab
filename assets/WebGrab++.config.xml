@@ -140,15 +140,15 @@ WebGrab+Plus uses the xmltv_id to identify a channel in an existing xmltv file.
     <channel update="i" site="vodafone.de" site_id="3521" xmltv_id="MDR Sachsen">MDR Sachsen</channel>
     <channel update="i" site="vodafone.de" site_id="19" xmltv_id="NDR FS NDS">NDR FS NDS</channel>
     <channel update="i" site="vodafone.de" site_id="3528" xmltv_id="rbb Berlin">rbb Berlin</channel>
-    <channel update="i" site="vodafone.de" site_id="18" xmltv_id="BR Fernsehen Süd">BR Fernsehen Süd</channel>
-    <channel update="i" site="vodafone.de" site_id="17" xmltv_id="WDR Köln">WDR Köln</channel>
+    <channel update="i" site="vodafone.de" site_id="18" xmltv_id="BR Fernsehen SÃ¼d">BR Fernsehen SÃ¼d</channel>
+    <channel update="i" site="vodafone.de" site_id="17" xmltv_id="WDR KÃ¶ln">WDR KÃ¶ln</channel>
     <channel update="i" site="vodafone.de" site_id="26" xmltv_id="hr-fernsehen">hr-fernsehen</channel>
     <channel update="i" site="vodafone.de" site_id="30" xmltv_id="SWR Fernsehen RP">SWR Fernsehen RP</channel>
     <channel update="i" site="vodafone.de" site_id="31" xmltv_id="SR Fernsehen">SR Fernsehen</channel>
     <channel update="i" site="vodafone.de" site_id="9643" xmltv_id="hr-fernsehen HD">hr-fernsehen HD</channel>
     <channel update="i" site="vodafone.de" site_id="5425" xmltv_id="SWR Fernsehen RP HD">SWR Fernsehen RP HD</channel>
-    <channel update="i" site="vodafone.de" site_id="4968" xmltv_id="WDR Köln HD">WDR Köln HD</channel>
-    <channel update="i" site="vodafone.de" site_id="4966" xmltv_id="BR Fernsehen Süd HD">BR Fernsehen Süd HD</channel>
+    <channel update="i" site="vodafone.de" site_id="4968" xmltv_id="WDR KÃ¶ln HD">WDR KÃ¶ln HD</channel>
+    <channel update="i" site="vodafone.de" site_id="4966" xmltv_id="BR Fernsehen SÃ¼d HD">BR Fernsehen SÃ¼d HD</channel>
     <channel update="i" site="vodafone.de" site_id="9652" xmltv_id="MDR Sachsen HD">MDR Sachsen HD</channel>
     <channel update="i" site="vodafone.de" site_id="9661" xmltv_id="rbb Berlin HD">rbb Berlin HD</channel>
     <channel update="i" site="vodafone.de" site_id="4967" xmltv_id="SWR Fernsehen BW HD">SWR Fernsehen BW HD</channel>
