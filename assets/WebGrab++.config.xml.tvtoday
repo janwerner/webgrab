@@ -115,88 +115,66 @@ WebGrab+Plus uses the xmltv_id to identify a channel in an existing xmltv file.
 -->
 
   <channels>
-    <channel update="i" site="vodafone.de" site_id="1" xmltv_id="Das Erste">Das Erste</channel>
-    <channel update="i" site="vodafone.de" site_id="2" xmltv_id="ZDF">ZDF</channel>
-    <channel update="i" site="vodafone.de" site_id="4" xmltv_id="RTL">RTL</channel>
-    <channel update="i" site="vodafone.de" site_id="5" xmltv_id="SAT.1">SAT.1</channel>
-    <channel update="i" site="vodafone.de" site_id="6" xmltv_id="ProSieben">ProSieben</channel>
-    <channel update="i" site="vodafone.de" site_id="11" xmltv_id="VOX">VOX</channel>
-    <channel update="i" site="vodafone.de" site_id="9" xmltv_id="RTL II">RTL II</channel>
-    <channel update="i" site="vodafone.de" site_id="8" xmltv_id="kabel eins">kabel eins</channel>
-    <channel update="i" site="vodafone.de" site_id="118" xmltv_id="3sat">3sat</channel>
-    <channel update="i" site="vodafone.de" site_id="10" xmltv_id="ARTE">ARTE</channel>
-    <channel update="i" site="vodafone.de" site_id="956" xmltv_id="EinsPlus">EinsPlus</channel>
-    <channel update="i" site="vodafone.de" site_id="4162" xmltv_id="Das Erste HD">Das Erste HD</channel>
-    <channel update="i" site="vodafone.de" site_id="4163" xmltv_id="ZDF HD">ZDF HD</channel>
-    <channel update="i" site="vodafone.de" site_id="4224" xmltv_id="RTL HD">RTL HD</channel>
-    <channel update="i" site="vodafone.de" site_id="4225" xmltv_id="SAT.1 HD">SAT.1 HD</channel>
-    <channel update="i" site="vodafone.de" site_id="4226" xmltv_id="ProSieben HD">ProSieben HD</channel>
-    <channel update="i" site="vodafone.de" site_id="4228" xmltv_id="VOX HD">VOX HD</channel>
-    <channel update="i" site="vodafone.de" site_id="4636" xmltv_id="RTL II HD">RTL II HD</channel>
-    <channel update="i" site="vodafone.de" site_id="4227" xmltv_id="kabel eins HD">kabel eins HD</channel>
-    <channel update="i" site="vodafone.de" site_id="3832" xmltv_id="ARTE HD">ARTE HD</channel>
-    <channel update="i" site="vodafone.de" site_id="4965" xmltv_id="3sat HD">3sat HD</channel>
-    <channel update="i" site="vodafone.de" site_id="4726" xmltv_id="ServusTV HD">ServusTV HD</channel>
-    <channel update="i" site="vodafone.de" site_id="3521" xmltv_id="MDR Sachsen">MDR Sachsen</channel>
-    <channel update="i" site="vodafone.de" site_id="19" xmltv_id="NDR FS NDS">NDR FS NDS</channel>
-    <channel update="i" site="vodafone.de" site_id="3528" xmltv_id="rbb Berlin">rbb Berlin</channel>
-    <channel update="i" site="vodafone.de" site_id="18" xmltv_id="BR Fernsehen Süd">BR Fernsehen Süd</channel>
-    <channel update="i" site="vodafone.de" site_id="17" xmltv_id="WDR Köln">WDR Köln</channel>
-    <channel update="i" site="vodafone.de" site_id="26" xmltv_id="hr-fernsehen">hr-fernsehen</channel>
-    <channel update="i" site="vodafone.de" site_id="30" xmltv_id="SWR Fernsehen RP">SWR Fernsehen RP</channel>
-    <channel update="i" site="vodafone.de" site_id="31" xmltv_id="SR Fernsehen">SR Fernsehen</channel>
-    <channel update="i" site="vodafone.de" site_id="9643" xmltv_id="hr-fernsehen HD">hr-fernsehen HD</channel>
-    <channel update="i" site="vodafone.de" site_id="5425" xmltv_id="SWR Fernsehen RP HD">SWR Fernsehen RP HD</channel>
-    <channel update="i" site="vodafone.de" site_id="4968" xmltv_id="WDR Köln HD">WDR Köln HD</channel>
-    <channel update="i" site="vodafone.de" site_id="4966" xmltv_id="BR Fernsehen Süd HD">BR Fernsehen Süd HD</channel>
-    <channel update="i" site="vodafone.de" site_id="9652" xmltv_id="MDR Sachsen HD">MDR Sachsen HD</channel>
-    <channel update="i" site="vodafone.de" site_id="9661" xmltv_id="rbb Berlin HD">rbb Berlin HD</channel>
-    <channel update="i" site="vodafone.de" site_id="4967" xmltv_id="SWR Fernsehen BW HD">SWR Fernsehen BW HD</channel>
-    <channel update="i" site="vodafone.de" site_id="4969" xmltv_id="NDR FS NDS HD">NDR FS NDS HD</channel>
-    <channel update="i" site="vodafone.de" site_id="121" xmltv_id="COMEDY CENTRAL / VIVA">COMEDY CENTRAL / VIVA</channel>
-    <channel update="i" site="vodafone.de" site_id="105" xmltv_id="TELE 5">TELE 5</channel>
-    <channel update="i" site="vodafone.de" site_id="931" xmltv_id="Disney Channel">Disney Channel</channel>
-    <channel update="i" site="vodafone.de" site_id="955" xmltv_id="One">One</channel>
-    <channel update="i" site="vodafone.de" site_id="4130" xmltv_id="ZDFneo">ZDFneo</channel>
-    <channel update="i" site="vodafone.de" site_id="30774" xmltv_id="RTLplus">RTLplus</channel>
-    <channel update="i" site="vodafone.de" site_id="4947" xmltv_id="RTL NITRO">RTL NITRO</channel>
-    <channel update="i" site="vodafone.de" site_id="4218" xmltv_id="sixx">sixx</channel>
-    <channel update="i" site="vodafone.de" site_id="5602" xmltv_id="SAT.1 Gold">SAT.1 Gold</channel>
-    <channel update="i" site="vodafone.de" site_id="9159" xmltv_id="ProSieben MAXX">ProSieben MAXX</channel>
-    <channel update="i" site="vodafone.de" site_id="23939" xmltv_id="TLC">TLC</channel>
-    <channel update="i" site="vodafone.de" site_id="3877" xmltv_id="ANIXE SD">ANIXE SD</channel>
-    <channel update="i" site="vodafone.de" site_id="4637" xmltv_id="sixx HD">sixx HD</channel>
-    <channel update="i" site="vodafone.de" site_id="5479" xmltv_id="RTL NITRO HD">RTL NITRO HD</channel>
-    <channel update="i" site="vodafone.de" site_id="4740" xmltv_id="TELE 5 HD">TELE 5 HD</channel>
-    <channel update="i" site="vodafone.de" site_id="4640" xmltv_id="COMEDY CENTRAL/VIVA HD">COMEDY CENTRAL/VIVA HD</channel>
-    <channel update="i" site="vodafone.de" site_id="702" xmltv_id="SAT.1 emotions">SAT.1 emotions</channel>
-    <channel update="i" site="vodafone.de" site_id="4971" xmltv_id="ZDFneo HD">ZDFneo HD</channel>
-    <channel update="i" site="vodafone.de" site_id="10096" xmltv_id="Sony Entertainment TV HD">Sony Entertainment TV HD</channel>
-    <channel update="i" site="vodafone.de" site_id="12" xmltv_id="SPORT1">SPORT1</channel>
-    <channel update="i" site="vodafone.de" site_id="107" xmltv_id="Eurosport 1">Eurosport 1</channel>
-    <channel update="i" site="vodafone.de" site_id="57" xmltv_id="ARD-alpha">ARD-alpha</channel>
-    <channel update="i" site="vodafone.de" site_id="227" xmltv_id="DMAX">DMAX</channel>
-    <channel update="i" site="vodafone.de" site_id="7" xmltv_id="n-tv">n-tv</channel>
-    <channel update="i" site="vodafone.de" site_id="206" xmltv_id="PHOENIX">PHOENIX</channel>
-    <channel update="i" site="vodafone.de" site_id="953" xmltv_id="N24">N24</channel>
-    <channel update="i" site="vodafone.de" site_id="962" xmltv_id="tagesschau24">tagesschau24</channel>
-    <channel update="i" site="vodafone.de" site_id="963" xmltv_id="ZDFinfo">ZDFinfo</channel>
-    <channel update="i" site="vodafone.de" site_id="112" xmltv_id="BBC World News (eng)">BBC World News (eng)</channel>
-    <channel update="i" site="vodafone.de" site_id="2025" xmltv_id="CNN International (eng)">CNN International (eng)</channel>
-    <channel update="i" site="vodafone.de" site_id="3737" xmltv_id="Al Jazeera Int (eng)">Al Jazeera Int (eng)</channel>
-    <channel update="i" site="vodafone.de" site_id="5429" xmltv_id="PHOENIX HD">PHOENIX HD</channel>
-    <channel update="i" site="vodafone.de" site_id="179" xmltv_id="SUPER RTL">SUPER RTL</channel>
-    <channel update="i" site="vodafone.de" site_id="63" xmltv_id="KiKA">KiKA</channel>
-    <channel update="i" site="vodafone.de" site_id="16001" xmltv_id="TOGGO plus">TOGGO plus</channel>
-    <channel update="i" site="vodafone.de" site_id="4114" xmltv_id="Disney Junior">Disney Junior</channel>
-    <channel update="i" site="vodafone.de" site_id="1511" xmltv_id="Boomerang">Boomerang</channel>
-    <channel update="i" site="vodafone.de" site_id="902" xmltv_id="Cartoon Network">Cartoon Network</channel>
-    <channel update="i" site="vodafone.de" site_id="4942" xmltv_id="SUPER RTL HD">SUPER RTL HD</channel>
-    <channel update="i" site="vodafone.de" site_id="4641" xmltv_id="Nickelodeon HD">Nickelodeon HD</channel>
-    <channel update="i" site="vodafone.de" site_id="4970" xmltv_id="KiKA HD">KiKA HD</channel>
-    <channel update="i" site="vodafone.de" site_id="9319" xmltv_id="Deutsches Musik Fernsehen">Deutsches Musik Fernsehen</channel>
-    <channel update="i" site="vodafone.de" site_id="3800" xmltv_id="DELUXE MUSIC">DELUXE MUSIC</channel>
-
+    <channel update="i" site="m.tvtoday.de" site_id="3SAT" xmltv_id="3sat">3sat</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="ANIXE" xmltv_id="ANIXE">ANIXE</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="ALPHA" xmltv_id="ARD-alpha">ARD-alpha</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="ARTE" xmltv_id="ARTE">ARTE</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="BBC" xmltv_id="BBC World News">BBC World News</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="BLM" xmltv_id="Bloomberg Europe TV">Bloomberg Europe TV</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="BR" xmltv_id="BR">BR</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="CNBC" xmltv_id="CNBC">CNBC</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="CNN" xmltv_id="CNN International">CNN International</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="CC" xmltv_id="COMEDY CENTRAL">COMEDY CENTRAL</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="ARD" xmltv_id="Das Erste">Das Erste</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="DMC" xmltv_id="DELUXE MUSIC">DELUXE MUSIC</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="DMF" xmltv_id="Deutsches Musik Fernsehen">Deutsches Musik Fernsehen</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="DMAX" xmltv_id="DMAX">DMAX</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="DWTV" xmltv_id="DW (Europe)">DW (Europe)</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="EURON" xmltv_id="euronews">euronews</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="EURO" xmltv_id="Eurosport 1">Eurosport 1</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="HR" xmltv_id="HR">HR</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="K1" xmltv_id="kabel eins">kabel eins</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="K1CLA" xmltv_id="kabel eins CLASSICS">kabel eins CLASSICS</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="K1DOKU" xmltv_id="kabel eins Doku">kabel eins Doku</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="KIKA" xmltv_id="KiKA">KiKA</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="MDR" xmltv_id="MDR">MDR</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="NTV" xmltv_id="n-tv">n-tv</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="N24" xmltv_id="N24">N24</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="N24DOKU" xmltv_id="N24 Doku">N24 Doku</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="N3" xmltv_id="NDR">NDR</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="FES" xmltv_id="ONE">ONE</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="PHOEN" xmltv_id="PHOENIX">PHOENIX</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="PRO7" xmltv_id="ProSieben">ProSieben</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="PRO7F" xmltv_id="ProSieben Fun">ProSieben Fun</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="PRO7M" xmltv_id="ProSieben MAXX">ProSieben MAXX</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="RBB" xmltv_id="RBB">RBB</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="RTL" xmltv_id="RTL">RTL</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="RTL-C" xmltv_id="RTL Crime">RTL Crime</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="RTL2" xmltv_id="RTL II">RTL II</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="RTL2YOU" xmltv_id="RTL II YOU">RTL II YOU</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="RTL-L" xmltv_id="RTL Living">RTL Living</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="RTL-N" xmltv_id="RTL NITRO">RTL NITRO</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="PASS" xmltv_id="RTL Passion">RTL Passion</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="RTLPL" xmltv_id="RTLplus">RTLplus</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="SAT1" xmltv_id="SAT.1">SAT.1</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="SAT1E" xmltv_id="SAT.1 emotions">SAT.1 emotions</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="SAT1G" xmltv_id="SAT.1 Gold">SAT.1 Gold</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="SERVU" xmltv_id="ServusTV Deutschland">ServusTV Deutschland</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="SIXX" xmltv_id="sixx">sixx</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="SPORT" xmltv_id="SPORT1">SPORT1</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="SUPER" xmltv_id="SUPER RTL">SUPER RTL</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="SWR" xmltv_id="SWR/SR">SWR/SR</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="TAG24" xmltv_id="tagesschau 24">tagesschau 24</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="TELE5" xmltv_id="TELE 5">TELE 5</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="TLC" xmltv_id="TLC">TLC</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="TV5" xmltv_id="TV5 Monde">TV5 Monde</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="VIVA" xmltv_id="VIVA">VIVA</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="VOX" xmltv_id="VOX">VOX</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="WDR" xmltv_id="WDR">WDR</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="ZDF" xmltv_id="ZDF">ZDF</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="ZINFO" xmltv_id="ZDFinfo">ZDFinfo</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="2NEO" xmltv_id="ZDFneo">ZDFneo</channel>
   </channels>
-  
+
+
 </settings>

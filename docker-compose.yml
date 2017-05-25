@@ -5,3 +5,4 @@ services:
     volumes:
      - ./config:/config
      - ./data:/data
+    restart: always
