@@ -1,5 +1,5 @@
-Docker container for WebGrab+Plus 2.0 with MDB & REX Postprocess
-==================================
+Docker container for WebGrab+Plus 2.0
+=====================================
 
 -   Uses [phusion/baseimage-docker](https://github.com/phusion/baseimage-docker)
 
