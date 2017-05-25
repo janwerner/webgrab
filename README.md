@@ -12,6 +12,6 @@ Docker container for WebGrab+Plus 2.0
     & `./config/rex/rex.config.xml`
 
 -   If no config exists, default config (German free-to-air channels from
-    `prisma.de` with MDB and REX postprocessing) will be used.
+    `prisma.de`) will be used.
 
 -   XMLTV guide data is output to `/data/guide.xml`
