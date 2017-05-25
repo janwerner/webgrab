@@ -9,7 +9,7 @@ The path (required) + filename where the epgguide xml file is /will be located. 
 If the file already exist (from last run or from another xmltv source) it will read it and use what fits the requested output. In that case the file will be updated. If no such file exist it will be created.
 Change the following to your own needs  :
 -->
- <filename>/data/guide.xml</filename>
+ <filename>/data/tvguide.xml</filename>
   
   <!-- modes:   
 d or debug    saves the output xmltv file in a file with -debug addition in the file name . The original xmltv file will be kept.  
