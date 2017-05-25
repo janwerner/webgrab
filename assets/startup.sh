@@ -18,7 +18,7 @@ fi
 #Check if any INI file exists. Copy default (prisma.de.ini) if non-existent
 count=`ls -1 /config/*.ini 2>/dev/null | wc -l`
 if [ $count = 0 ]; then
-  cp -R /webgrab/siteini.pack/Germany/prisma.de.ini /config/ && rm -f /config/rex/*.example.xml
+  cp -R /webgrab/siteini.pack/Germany/m.tvtoday.de.ini /config/ && rm -f /config/rex/*.example.xml
 fi
 
 #Check if user modified cron file exists and move to wg++.
