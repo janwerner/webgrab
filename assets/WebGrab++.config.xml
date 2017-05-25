@@ -79,7 +79,7 @@ The timespan for which shows will be grabbed.
 It takes one or two values separated by a comma or a space. The first is the number of days (including today) to download, note that 0 is today. The second (optional) is a time specified between 0:00 and 24:00 which will reduce the download to only the one show (per day) which is scheduled around the specified time. Any value between start time (including) and stop time will do
 This -one-show-only mode is helpfull if a SiteIni file needs to be debugged
 -->
-  <timespan>2</timespan>
+  <timespan>7</timespan>
 
   <!-- update mode
 i or incremental     only updates of changes , gabs, repairs and new shows
@@ -115,58 +115,66 @@ WebGrab+Plus uses the xmltv_id to identify a channel in an existing xmltv file.
 -->
 
   <channels>
-    <channel update="i" site="prisma.de" site_id="ARD,29" xmltv_id="ARD">ARD</channel>
-    <channel update="i" site="prisma.de" site_id="ZDF,2008" xmltv_id="ZDF">ZDF</channel>
-<!--
-    <channel update="i" site="prisma.de" site_id="RTL,13703" xmltv_id="RTL">RTL</channel>
-    <channel update="i" site="prisma.de" site_id="ProSieben,13707" xmltv_id="ProSieben">ProSieben</channel>
-    <channel update="i" site="prisma.de" site_id="SAT.1,13705" xmltv_id="SAT.1">SAT.1</channel>
-    <channel update="i" site="prisma.de" site_id="VOX,13713" xmltv_id="VOX">VOX</channel>
-    <channel update="i" site="prisma.de" site_id="KabelEins,638263" xmltv_id="KabelEins">KabelEins</channel>
-    <channel update="i" site="prisma.de" site_id="RTL-II,13709" xmltv_id="RTL II">RTL II</channel>
-    <channel update="i" site="prisma.de" site_id="RTLplus,9869466" xmltv_id="RTLplus">RTLplus</channel>
-    <channel update="i" site="prisma.de" site_id="DMAX,13804" xmltv_id="DMAX">DMAX</channel>
-    <channel update="i" site="prisma.de" site_id="sixx,13771" xmltv_id="sixx">sixx</channel>
-    <channel update="i" site="prisma.de" site_id="ProSieben-MAXX,3584813" xmltv_id="ProSieben MAXX">ProSieben MAXX</channel>
-    <channel update="i" site="prisma.de" site_id="Servus-TV,13765" xmltv_id="Servus TV">Servus TV</channel>
-    <channel update="i" site="prisma.de" site_id="Comedy-Central,13769" xmltv_id="Comedy Central">Comedy Central</channel>
-    <channel update="i" site="prisma.de" site_id="RTL-NITRO,13774" xmltv_id="RTL NITRO">RTL NITRO</channel>
-    <channel update="i" site="prisma.de" site_id="Sat.1-Gold,755354" xmltv_id="Sat.1 Gold">Sat.1 Gold</channel>
-    <channel update="i" site="prisma.de" site_id="kabel-eins-classics,3590217" xmltv_id="kabel eins classics">kabel eins classics</channel>
-    <channel update="i" site="prisma.de" site_id="Tele-5,13717" xmltv_id="Tele 5">Tele 5</channel>
-    <channel update="i" site="prisma.de" site_id="Viva,13761" xmltv_id="Viva">Viva</channel>
-    <channel update="i" site="prisma.de" site_id="arte,13735" xmltv_id="arte">arte</channel>
-    <channel update="i" site="prisma.de" site_id="3sat,13737" xmltv_id="3sat">3sat</channel>
-    <channel update="i" site="prisma.de" site_id="Phoenix,13741" xmltv_id="Phoenix">Phoenix</channel>
-    <channel update="i" site="prisma.de" site_id="ZDFneo,13794" xmltv_id="ZDFneo">ZDFneo</channel>
-    <channel update="i" site="prisma.de" site_id="EinsPlus,13790" xmltv_id="EinsPlus">EinsPlus</channel>
-    <channel update="i" site="prisma.de" site_id="WDR,779173" xmltv_id="WDR">WDR</channel>
-    <channel update="i" site="prisma.de" site_id="NDR,664723" xmltv_id="NDR">NDR</channel>
-    <channel update="i" site="prisma.de" site_id="MDR,13751" xmltv_id="MDR">MDR</channel>
-    <channel update="i" site="prisma.de" site_id="HR,633655" xmltv_id="HR">HR</channel>
-    <channel update="i" site="prisma.de" site_id="SWR,13747" xmltv_id="SWR">SWR</channel>
-    <channel update="i" site="prisma.de" site_id="BR,570537" xmltv_id="BR">BR</channel>
-    <channel update="i" site="prisma.de" site_id="RBB,13753" xmltv_id="RBB">RBB</channel>
-    <channel update="i" site="prisma.de" site_id="Sport1,13727" xmltv_id="Sport1">Sport1</channel>
-    <channel update="i" site="prisma.de" site_id="Eurosport,625762" xmltv_id="Eurosport">Eurosport</channel>
-    <channel update="i" site="prisma.de" site_id="n-tv,13782" xmltv_id="n-tv">n-tv</channel>
-    <channel update="i" site="prisma.de" site_id="N24,13784" xmltv_id="N24">N24</channel>
-    <channel update="i" site="prisma.de" site_id="ZDFinfo,782077" xmltv_id="ZDFinfo">ZDFinfo</channel>
-    <channel update="i" site="prisma.de" site_id="tagesschau24,807854" xmltv_id="tagesschau24">tagesschau24</channel>
-    <channel update="i" site="prisma.de" site_id="ARD-alpha,13739" xmltv_id="ARD alpha">ARD alpha</channel>
-    <channel update="i" site="prisma.de" site_id="Sat.1-Emotions,9072687" xmltv_id="Sat.1 Emotions">Sat.1 Emotions</channel>
-    <channel update="i" site="prisma.de" site_id="Sony-Entertainment-Television,9075167" xmltv_id="Sony Entertainment Television">Sony Entertainment Television</channel>
-    <channel update="i" site="prisma.de" site_id="TLC,9079821" xmltv_id="TLC">TLC</channel>
-    <channel update="i" site="prisma.de" site_id="SuperRTL,721631" xmltv_id="SuperRTL">SuperRTL</channel>
-    <channel update="i" site="prisma.de" site_id="KiKa,647429" xmltv_id="KiKa">KiKa</channel>
-    <channel update="i" site="prisma.de" site_id="Euronews,13787" xmltv_id="Euronews">Euronews</channel>
-    <channel update="i" site="prisma.de" site_id="CNN,13837" xmltv_id="CNN">CNN</channel>
-    <channel update="i" site="prisma.de" site_id="BBC,566187" xmltv_id="BBC">BBC</channel>
-    <channel update="i" site="prisma.de" site_id="TV5,13821" xmltv_id="TV5">TV5</channel>
--->  
-  
+    <channel update="i" site="m.tvtoday.de" site_id="3SAT" xmltv_id="3sat">3sat</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="ANIXE" xmltv_id="ANIXE">ANIXE</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="ALPHA" xmltv_id="ARD-alpha">ARD-alpha</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="ARTE" xmltv_id="ARTE">ARTE</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="BBC" xmltv_id="BBC World News">BBC World News</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="BLM" xmltv_id="Bloomberg Europe TV">Bloomberg Europe TV</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="BR" xmltv_id="BR">BR</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="CNBC" xmltv_id="CNBC">CNBC</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="CNN" xmltv_id="CNN International">CNN International</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="CC" xmltv_id="COMEDY CENTRAL">COMEDY CENTRAL</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="ARD" xmltv_id="Das Erste">Das Erste</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="DMC" xmltv_id="DELUXE MUSIC">DELUXE MUSIC</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="DMF" xmltv_id="Deutsches Musik Fernsehen">Deutsches Musik Fernsehen</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="DMAX" xmltv_id="DMAX">DMAX</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="DWTV" xmltv_id="DW (Europe)">DW (Europe)</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="EURON" xmltv_id="euronews">euronews</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="EURO" xmltv_id="Eurosport 1">Eurosport 1</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="HR" xmltv_id="HR">HR</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="K1" xmltv_id="kabel eins">kabel eins</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="K1CLA" xmltv_id="kabel eins CLASSICS">kabel eins CLASSICS</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="K1DOKU" xmltv_id="kabel eins Doku">kabel eins Doku</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="KIKA" xmltv_id="KiKA">KiKA</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="MDR" xmltv_id="MDR">MDR</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="NTV" xmltv_id="n-tv">n-tv</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="N24" xmltv_id="N24">N24</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="N24DOKU" xmltv_id="N24 Doku">N24 Doku</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="N3" xmltv_id="NDR">NDR</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="FES" xmltv_id="ONE">ONE</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="PHOEN" xmltv_id="PHOENIX">PHOENIX</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="PRO7" xmltv_id="ProSieben">ProSieben</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="PRO7F" xmltv_id="ProSieben Fun">ProSieben Fun</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="PRO7M" xmltv_id="ProSieben MAXX">ProSieben MAXX</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="RBB" xmltv_id="RBB">RBB</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="RTL" xmltv_id="RTL">RTL</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="RTL-C" xmltv_id="RTL Crime">RTL Crime</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="RTL2" xmltv_id="RTL II">RTL II</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="RTL2YOU" xmltv_id="RTL II YOU">RTL II YOU</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="RTL-L" xmltv_id="RTL Living">RTL Living</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="RTL-N" xmltv_id="RTL NITRO">RTL NITRO</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="PASS" xmltv_id="RTL Passion">RTL Passion</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="RTLPL" xmltv_id="RTLplus">RTLplus</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="SAT1" xmltv_id="SAT.1">SAT.1</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="SAT1E" xmltv_id="SAT.1 emotions">SAT.1 emotions</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="SAT1G" xmltv_id="SAT.1 Gold">SAT.1 Gold</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="SERVU" xmltv_id="ServusTV Deutschland">ServusTV Deutschland</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="SIXX" xmltv_id="sixx">sixx</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="SPORT" xmltv_id="SPORT1">SPORT1</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="SUPER" xmltv_id="SUPER RTL">SUPER RTL</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="SWR" xmltv_id="SWR/SR">SWR/SR</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="TAG24" xmltv_id="tagesschau 24">tagesschau 24</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="TELE5" xmltv_id="TELE 5">TELE 5</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="TLC" xmltv_id="TLC">TLC</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="TV5" xmltv_id="TV5 Monde">TV5 Monde</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="VIVA" xmltv_id="VIVA">VIVA</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="VOX" xmltv_id="VOX">VOX</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="WDR" xmltv_id="WDR">WDR</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="ZDF" xmltv_id="ZDF">ZDF</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="ZINFO" xmltv_id="ZDFinfo">ZDFinfo</channel>
+    <channel update="i" site="m.tvtoday.de" site_id="2NEO" xmltv_id="ZDFneo">ZDFneo</channel>
   </channels>
-
 
 
 </settings>
