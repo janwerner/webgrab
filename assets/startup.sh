@@ -32,6 +32,14 @@ if [ -f /config/rex.config.xml ]; then
   ln -s /config/rex /webgrab/rex
 fi
 
+#Create log file if it doesn't exist
+if [ ! -f /data/WebGrab++.log.txt ]; then
+  touch /data/WebGrab++.log.txt && chown nobody /data/WebGrab++.log.txt
+fi
+
+#Symlink log file
+ln -sf /data/WebGrab++.log.txt /webgrab/WebGrab++.log.txt
+
 #Check if user modified cron file exists and move to wg++.
 if [ -e /config/mycron ]; then
   crontab -u nobody /config/mycron

@@ -30,7 +30,7 @@ RUN mkdir /webgrab && \
     rm -f /tmp/webgrab.tar.gz /tmp/siteini.zip && \
     cd /webgrab && \
     ./install.sh && \
-    rm -f /webgrab/WebGrab++.config.xml
+    rm -f /webgrab/WebGrab++.config.xml /webgrab/WebGrab++.config.example.xml
 
 # Clean up APT when done.
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* 
