@@ -16,4 +16,4 @@ Docker container for WebGrab+Plus 2.0
     `vodafone.de`) will be used
 
 -   XMLTV guide data is output to `/data/tvguide.xml` (create a volume map for
-    `/data` to access
+    `/data` to access)
