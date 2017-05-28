@@ -79,7 +79,7 @@ The timespan for which shows will be grabbed.
 It takes one or two values separated by a comma or a space. The first is the number of days (including today) to download, note that 0 is today. The second (optional) is a time specified between 0:00 and 24:00 which will reduce the download to only the one show (per day) which is scheduled around the specified time. Any value between start time (including) and stop time will do
 This -one-show-only mode is helpfull if a SiteIni file needs to be debugged
 -->
-  <timespan>7</timespan>
+  <timespan>13</timespan>
 
   <!-- update mode
 i or incremental     only updates of changes , gabs, repairs and new shows
@@ -115,17 +115,6 @@ WebGrab+Plus uses the xmltv_id to identify a channel in an existing xmltv file.
 -->
 
   <channels>
-    <channel update="i" site="vodafone.de" site_id="1" xmltv_id="Das Erste">Das Erste</channel>
-    <channel update="i" site="vodafone.de" site_id="2" xmltv_id="ZDF">ZDF</channel>
-    <channel update="i" site="vodafone.de" site_id="4" xmltv_id="RTL">RTL</channel>
-    <channel update="i" site="vodafone.de" site_id="5" xmltv_id="SAT.1">SAT.1</channel>
-    <channel update="i" site="vodafone.de" site_id="6" xmltv_id="ProSieben">ProSieben</channel>
-    <channel update="i" site="vodafone.de" site_id="11" xmltv_id="VOX">VOX</channel>
-    <channel update="i" site="vodafone.de" site_id="9" xmltv_id="RTL II">RTL II</channel>
-    <channel update="i" site="vodafone.de" site_id="8" xmltv_id="kabel eins">kabel eins</channel>
-    <channel update="i" site="vodafone.de" site_id="118" xmltv_id="3sat">3sat</channel>
-    <channel update="i" site="vodafone.de" site_id="10" xmltv_id="ARTE">ARTE</channel>
-    <channel update="i" site="vodafone.de" site_id="956" xmltv_id="EinsPlus">EinsPlus</channel>
     <channel update="i" site="vodafone.de" site_id="4162" xmltv_id="Das Erste HD">Das Erste HD</channel>
     <channel update="i" site="vodafone.de" site_id="4163" xmltv_id="ZDF HD">ZDF HD</channel>
     <channel update="i" site="vodafone.de" site_id="4224" xmltv_id="RTL HD">RTL HD</channel>
@@ -137,14 +126,6 @@ WebGrab+Plus uses the xmltv_id to identify a channel in an existing xmltv file.
     <channel update="i" site="vodafone.de" site_id="3832" xmltv_id="ARTE HD">ARTE HD</channel>
     <channel update="i" site="vodafone.de" site_id="4965" xmltv_id="3sat HD">3sat HD</channel>
     <channel update="i" site="vodafone.de" site_id="4726" xmltv_id="ServusTV HD">ServusTV HD</channel>
-    <channel update="i" site="vodafone.de" site_id="3521" xmltv_id="MDR Sachsen">MDR Sachsen</channel>
-    <channel update="i" site="vodafone.de" site_id="19" xmltv_id="NDR FS NDS">NDR FS NDS</channel>
-    <channel update="i" site="vodafone.de" site_id="3528" xmltv_id="rbb Berlin">rbb Berlin</channel>
-    <channel update="i" site="vodafone.de" site_id="18" xmltv_id="BR Fernsehen Süd">BR Fernsehen Süd</channel>
-    <channel update="i" site="vodafone.de" site_id="17" xmltv_id="WDR Köln">WDR Köln</channel>
-    <channel update="i" site="vodafone.de" site_id="26" xmltv_id="hr-fernsehen">hr-fernsehen</channel>
-    <channel update="i" site="vodafone.de" site_id="30" xmltv_id="SWR Fernsehen RP">SWR Fernsehen RP</channel>
-    <channel update="i" site="vodafone.de" site_id="31" xmltv_id="SR Fernsehen">SR Fernsehen</channel>
     <channel update="i" site="vodafone.de" site_id="9643" xmltv_id="hr-fernsehen HD">hr-fernsehen HD</channel>
     <channel update="i" site="vodafone.de" site_id="5425" xmltv_id="SWR Fernsehen RP HD">SWR Fernsehen RP HD</channel>
     <channel update="i" site="vodafone.de" site_id="4968" xmltv_id="WDR Köln HD">WDR Köln HD</channel>
@@ -154,8 +135,6 @@ WebGrab+Plus uses the xmltv_id to identify a channel in an existing xmltv file.
     <channel update="i" site="vodafone.de" site_id="4967" xmltv_id="SWR Fernsehen BW HD">SWR Fernsehen BW HD</channel>
     <channel update="i" site="vodafone.de" site_id="4969" xmltv_id="NDR FS NDS HD">NDR FS NDS HD</channel>
     <channel update="i" site="vodafone.de" site_id="121" xmltv_id="COMEDY CENTRAL / VIVA">COMEDY CENTRAL / VIVA</channel>
-    <channel update="i" site="vodafone.de" site_id="105" xmltv_id="TELE 5">TELE 5</channel>
-    <channel update="i" site="vodafone.de" site_id="931" xmltv_id="Disney Channel">Disney Channel</channel>
     <channel update="i" site="vodafone.de" site_id="955" xmltv_id="One">One</channel>
     <channel update="i" site="vodafone.de" site_id="4130" xmltv_id="ZDFneo">ZDFneo</channel>
     <channel update="i" site="vodafone.de" site_id="30774" xmltv_id="RTLplus">RTLplus</channel>
@@ -177,7 +156,6 @@ WebGrab+Plus uses the xmltv_id to identify a channel in an existing xmltv file.
     <channel update="i" site="vodafone.de" site_id="57" xmltv_id="ARD-alpha">ARD-alpha</channel>
     <channel update="i" site="vodafone.de" site_id="227" xmltv_id="DMAX">DMAX</channel>
     <channel update="i" site="vodafone.de" site_id="7" xmltv_id="n-tv">n-tv</channel>
-    <channel update="i" site="vodafone.de" site_id="206" xmltv_id="PHOENIX">PHOENIX</channel>
     <channel update="i" site="vodafone.de" site_id="953" xmltv_id="N24">N24</channel>
     <channel update="i" site="vodafone.de" site_id="962" xmltv_id="tagesschau24">tagesschau24</channel>
     <channel update="i" site="vodafone.de" site_id="963" xmltv_id="ZDFinfo">ZDFinfo</channel>
@@ -186,7 +164,6 @@ WebGrab+Plus uses the xmltv_id to identify a channel in an existing xmltv file.
     <channel update="i" site="vodafone.de" site_id="3737" xmltv_id="Al Jazeera Int (eng)">Al Jazeera Int (eng)</channel>
     <channel update="i" site="vodafone.de" site_id="5429" xmltv_id="PHOENIX HD">PHOENIX HD</channel>
     <channel update="i" site="vodafone.de" site_id="179" xmltv_id="SUPER RTL">SUPER RTL</channel>
-    <channel update="i" site="vodafone.de" site_id="63" xmltv_id="KiKA">KiKA</channel>
     <channel update="i" site="vodafone.de" site_id="16001" xmltv_id="TOGGO plus">TOGGO plus</channel>
     <channel update="i" site="vodafone.de" site_id="4114" xmltv_id="Disney Junior">Disney Junior</channel>
     <channel update="i" site="vodafone.de" site_id="1511" xmltv_id="Boomerang">Boomerang</channel>
@@ -196,7 +173,6 @@ WebGrab+Plus uses the xmltv_id to identify a channel in an existing xmltv file.
     <channel update="i" site="vodafone.de" site_id="4970" xmltv_id="KiKA HD">KiKA HD</channel>
     <channel update="i" site="vodafone.de" site_id="9319" xmltv_id="Deutsches Musik Fernsehen">Deutsches Musik Fernsehen</channel>
     <channel update="i" site="vodafone.de" site_id="3800" xmltv_id="DELUXE MUSIC">DELUXE MUSIC</channel>
-
   </channels>
   
 </settings>
