@@ -13,7 +13,8 @@ Docker container for WebGrab+Plus 2.0
     & `./config/rex/rex.config.xml`
 
 -   If no config exists, default config (German free-to-air channels from
-    `vodafone.de`) will be used
+    `vodafone.de`) will be used. Hint: scraping from Vodafone is incredibly slow
+    - for me, it takes 20 hours (!) to download data for 59 channels.
 
 -   XMLTV guide data is output to `/data/tvguide.xml` (create a volume map for
     `/data` to access)
