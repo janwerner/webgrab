@@ -7,8 +7,8 @@ Docker container for WebGrab+Plus 2.0
 
 -   Updated for [WebGrab+Plus 2.0](http://www.webgrabplus.com/)
 
--   To use your own config, create a volume map for `/config` and create `./config/WebGrab++.config.xml` and optionally `./config/mdb/mdb.config.xml` and `./config/rex/rex.config.xml`
+-   To use your own config, create a volume bind for `/config` and create `./config/WebGrab++.config.xml` and optionally `./config/mdb/mdb.config.xml` and `./config/rex/rex.config.xml`
 
 -   If no config exists, default config (German free-to-air channels from  `vodafone.de`) will be used
 
--   XMLTV guide data is output to `/data/tvguide.xml` (create a volume map for  `/data` to access)
+-   XMLTV guide data is output to `/data/tvguide.xml` (create a volume bind for  `/data` to access)
