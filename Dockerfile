@@ -22,7 +22,7 @@ RUN apt-add-repository multiverse && \
 
 #Download and extract WG++ to correct paths
 RUN mkdir /webgrab && \
-    wget -O /tmp/webgrab.tar.gz http://webgrabplus.com/sites/default/files/download/SW/V2.0.0/WebGrabPlus_V2.0_install.tar.gz && \
+    wget -O /tmp/webgrab.tar.gz http://webgrabplus.com/sites/default/files/download/SW/V2.1.0/WebGrabPlus_V2.1_install.tar.gz && \
     wget -O /tmp/siteini.zip http://webgrabplus.com/sites/default/files/download/ini/SiteIniPack_current.zip && \
     tar --strip-components=1 -xvf /tmp/webgrab.tar.gz -C /webgrab && \
     rm -rf /webgrab/siteini.pack && \
